@@ -4,7 +4,7 @@ public class Fibo {
     public static void main(String[] args) {
         System.out.println(fibo(7));
     }
-    static void fibo(int n){
+    static int fibo(int n){
         if(n < 2){
             return n;
         }
