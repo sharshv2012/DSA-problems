@@ -8,7 +8,7 @@ public class ReduceToZero{
     static int steps(int num){
         return helper(num, 0);
     }
-    static int helper(int num, int steps){
+    static int helper(int num, int steps){ // used helper becuz we have a var for count
         if(num==0){
             return steps;
         }
